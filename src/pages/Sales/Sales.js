@@ -7,7 +7,7 @@ import SalesRoute from "./SalesRoute";
 function Sales() {
   let a = new Date();
 
-  const [date, setDate] = useState({
+  const [setDate] = useState({
     sana: `${a.getDate()}-${a.getMonth()}-${a.getFullYear()}`,
   });
   const [path, setPath] = useState(true);

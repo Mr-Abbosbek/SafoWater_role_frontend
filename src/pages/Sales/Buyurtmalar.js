@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MaterialTable from "../../Component/UI/MaterialTable";
 
 function Buyurtmalar({ title }) {
-  const [sales, setSales] = useState([]);
+  const [sales] = useState([]);
 
   const [columns] = useState([
     { title: "T/R", field: "id" },
