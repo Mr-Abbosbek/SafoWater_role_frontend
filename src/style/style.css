@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  box-sizing: border-box;
+}
+.body{
+  background-color: #f2f2f2;
+}
+body{
+  font-family: "Nunito Sans", Arial, sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+  color: #fff !important;
+}
+ul{
+  list-style: none;
+}
+.head-div{
+  display: flex;
+  align-items: center;
+}
+
+.navLink_menu{
+  min-height: 60px !important;
+  color: #000 !important;
+}
+
+.active{
+  background-color: #082b7a!important;
+  color: #fff !important;
+}
+.active .MuiSvgIcon-root{
+  color: #fff;
+}
+
+.all_btn_tabs{
+  background-color: #fff;
+}
+
+/* ============================================================================================================================================ */
+
+.allTab{
+  border-right: 1px solid rgb(128, 128, 128, 0.5) !important;
+}
+.allTab:nth-child(1){
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  border-left: 1px solid rgb(128, 128, 128, 0.5) !important;
+}
+.allTab:nth-child(5){
+  border-top-right-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+}
+
+/* ============================================================================================================================================ */
+
+.MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows{
+  /* display: none !important; */
+  margin: 0 !important;
+}
+.xodim_td{
+  padding: 0 !important;
+}
+.xodimlar_link{
+  width: 100% !important;
+  height: 50px !important;
+  padding-left: 13px !important;
+  padding-right: 18px !important;
+  line-height: 50px;
+}
+
+.statistic{
+  width: 94%;
+}
